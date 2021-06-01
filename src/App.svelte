@@ -1,9 +1,7 @@
 <script>
 	import { onMount } from "svelte";
-
 	let amount = 1;
 	$: sum = amount * 2;
-
 	onMount(() => {
 		paypal
 			.Buttons({
