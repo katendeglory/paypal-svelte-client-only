@@ -35,6 +35,6 @@
 	}
 </style>
 
-<h1>Welcome to my Store! Your Bill: ${sum}</h1>
+<h1>Welcome to my Store! Your Bill is: ${sum}</h1>
 <input type="text" bind:value={amount} />
 <div id="paypal-button-container" />
