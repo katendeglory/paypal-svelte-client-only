@@ -4,9 +4,12 @@
 <head>
 	<meta charset='utf-8'>
 	<meta name='viewport' content='width=device-width,initial-scale=1'>
-	<script
-		src="https://www.paypal.com/sdk/js?client-id=ARER5btPDPnZXAzTsYoXDxpbs-FNrlN6erv20HL7YamuvmVM-lNex-xMZ9m6x8aFiui0pPrxp2pMRkPX&currency=USD">
-		</script>
+
+	<meta http-equiv="Content-Security-Policy" content="default-src *  data: blob: filesystem: about: ws: wss: 'unsafe-inline' 'unsafe-eval' ; script-src * data: blob: 'unsafe-inline' 'unsafe-eval'; connect-src * data: blob: 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src * data: blob: ; style-src * data: blob: 'unsafe-inline'; font-src * data: blob: 'unsafe-inline';">
+	
+	<!-- content="default-src *  data: blob: filesystem: about: ws: wss: 'unsafe-inline' 'unsafe-eval' 'unsafe-dynamic'; script-src * data: blob: 'unsafe-inline' 'unsafe-eval'; connect-src * data: blob: 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src * data: blob: ; style-src * data: blob: 'unsafe-inline'; font-src * data: blob: 'unsafe-inline';"> -->
+
+	<script src="https://www.paypal.com/sdk/js?client-id=ARER5btPDPnZXAzTsYoXDxpbs-FNrlN6erv20HL7YamuvmVM-lNex-xMZ9m6x8aFiui0pPrxp2pMRkPX&currency=USD"></script>
 
 	<title>Svelte app</title>
 	<link rel='icon' type='image/png' href='/favicon.png'>
